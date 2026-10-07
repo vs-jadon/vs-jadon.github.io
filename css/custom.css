@@ -1,0 +1,69 @@
+/* Content-layer styles for the 2026 revamp. The template's look (style.css) is unchanged. */
+
+body { color: #555c63; }
+h1, h2, h3, h4, h5, h6 { color: #343a40; }
+
+/* Hero */
+.hero-summary { color: rgba(255,255,255,.85); font-size: 1.15rem; max-width: 620px; line-height: 1.6; }
+.hero-facts { color: rgba(255,255,255,.7); font-size: .95rem; }
+.hero-facts span { white-space: nowrap; }
+.hero-facts .sep { margin: 0 .5rem; color: #0BCEAF; }
+
+/* Section intro text */
+.section-intro { max-width: 720px; margin: 1.5rem auto 0; text-align: center; font-size: 1.05rem; }
+
+/* At-a-glance stats */
+.stat { background: #343a40; color: rgba(255,255,255,.75); border-radius: 14px; padding: 1.75rem 1.5rem; height: 100%; text-align: center; }
+.stat-value { font-size: 2.6rem; font-weight: 900; color: #0BCEAF; line-height: 1.1; }
+.stat-value span { font-size: 1.1rem; font-weight: 500; color: rgba(255,255,255,.85); }
+.stat h6 { color: #fff; text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; font-weight: 700 !important; margin: .6rem 0 .4rem; }
+.stat p { margin: 0; font-size: .95rem; }
+
+/* How I work */
+.principle { background: #f6f8f9; border-top: 3px solid #0BCEAF; border-radius: 12px; padding: 1.5rem; height: 100%; }
+.principle h5 { font-weight: 700 !important; }
+.principle-icon { color: #0BCEAF; font-size: 1.4rem; margin-bottom: .75rem; display: block; }
+
+/* Experience timeline */
+.role-meta { color: #6c757d; font-size: .9rem; }
+.role-context { color: #6c757d; font-style: italic; }
+.timeline ul { padding-left: 1.1rem; margin-bottom: .5rem; }
+.timeline li { margin-bottom: .35rem; }
+
+/* Case studies */
+.group-title { font-size: 1.1rem; text-transform: uppercase; letter-spacing: .08em; color: #6c757d; margin: 2.5rem 0 1rem; }
+.case { border: 1px solid #e3e7ea; border-radius: 14px; padding: 1.75rem; margin-bottom: 1.5rem; background: #fff; }
+.case h4 { font-weight: 700 !important; margin-bottom: .25rem; }
+.case .company { color: #6c757d; font-size: .9rem; margin-bottom: 1rem; }
+.tag { display: inline-block; font-size: .75rem; font-weight: 500; color: #087f6c; background: #e6faf6; border-radius: 100px; padding: .2rem .7rem; margin: 0 .3rem .4rem 0; }
+.tldr h6 { text-transform: uppercase; letter-spacing: .06em; font-size: .72rem; color: #6c757d; margin-bottom: .3rem; }
+.tldr p { color: #343a40; margin-bottom: 1rem; }
+.tldr .outcome p { font-weight: 700; color: #087f6c; }
+.case .toggle { font-size: .9rem; padding: 6px 18px; }
+.case-body { border-top: 1px solid #eef1f3; margin-top: 1rem; padding-top: 1.25rem; }
+.case-body h6 { font-weight: 700 !important; color: #343a40; margin: 1rem 0 .35rem; }
+.case-body p, .case-body li { font-size: .97rem; }
+.case-body ul { padding-left: 1.1rem; }
+.case-body .note { font-size: .88rem; color: #6c757d; }
+
+/* Before product */
+.mini { border: 1px solid #e3e7ea; border-radius: 12px; padding: 1.5rem; height: 100%; }
+.mini h5 { font-weight: 700 !important; margin-bottom: .2rem; }
+.mini .company { color: #6c757d; font-size: .88rem; margin-bottom: .75rem; }
+.mini a { font-size: .92rem; }
+
+/* Recognition */
+.award img { width: 64px; height: 64px; object-fit: cover; }
+.award h6 { color: #343a40; font-weight: 700 !important; margin: .75rem 0 .25rem; }
+.award p { font-size: .9rem; margin: 0; }
+
+/* Contact */
+.contact-line a { color: #343a40; }
+
+@media (max-width: 575.98px) {
+  .case { padding: 1.25rem; }
+  .hero-summary { font-size: 1.05rem; }
+}
+
+/* The template's scroll hint overlaps hero text on small screens */
+@media (max-width: 991.98px) { .scroll-to-bottom { display: none !important; } }
